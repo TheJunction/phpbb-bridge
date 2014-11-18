@@ -1,0 +1,38 @@
+##################
+#    Features    #
+##################
+register: enabled
+# refer: disabled
+
+##################
+# MySQL Database #
+##################
+
+# Database IP
+ip: localhost
+
+# Database Port (default 3306)
+port: 3306
+
+# phpBB Database table name
+tablename: phpBB
+
+# phpBB Prefix (default phpbb_)
+prefix: phpbb_
+
+# MySQL Username and Password
+user: root
+pass: pass
+
+# Number of custom fields (default 13)
+numcustfield: 13
+
+##################
+#    Commands    #
+##################
+
+register:
+  - give %player% diamond 1
+  - broadcast %player% just registered!
+# refer:
+#   - 

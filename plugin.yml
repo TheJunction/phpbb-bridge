@@ -1,0 +1,7 @@
+name: phpBB-Bridge
+main: me.PantherMan594.phpBB_Bridge.Main
+version: 0.1
+description: phpBB to Bukkit Bridge
+commands:
+  phpbb:
+    description: Main command for this plugin
